@@ -66,7 +66,7 @@ define('PKGPATH', realpath(__DIR__.'/../fuel/packages/').DIRECTORY_SEPARATOR);
  * -----------------------------------------------------------------------------
  */
 
-define('COREPATH', realpath(__DIR__.'/../fuel/core/').DIRECTORY_SEPARATOR);
+define('COREPATH', realpath(__DIR__.'/../fuel/fuelcore/').DIRECTORY_SEPARATOR);
 
 /**
  * -----------------------------------------------------------------------------
