@@ -9,7 +9,7 @@
         "composer/installers": "~1.0",
         "mathlock/FuelCore": "main",
         "mathlock/FuelAuth": "main",
-        "mathlock/FuelOil": "main",
+        "mathlock/FuelOil": "main"
     },
     "require-dev": {},
     "suggest": {},
