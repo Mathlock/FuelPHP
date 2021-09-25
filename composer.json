@@ -7,9 +7,9 @@
     "require": {
         "php": ">=5.4",
         "composer/installers": "~1.0",
-        "mathlock/FuelCore": "main",
-        "mathlock/FuelAuth": "main",
-        "mathlock/FuelOil": "main"
+        "mathlock/fuelcore": "dev-main",
+        "mathlock/fuelauth": "dev-main",
+        "mathlock/fueloil": "dev-main"
     },
     "require-dev": {},
     "suggest": {},
@@ -26,5 +26,19 @@
             "php oil r install"
         ]
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/mathlock/fuelcore"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/mathlock/fuelauth"
+    },
+    {
+        "type": "vcs",
+        "url": "https://github.com/mathlock/fueloil"
+    }
+    ]
 }
