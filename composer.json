@@ -7,9 +7,9 @@
     "require": {
         "php": ">=5.4",
         "composer/installers": "~1.0",
-        "mathlock/FuelCore": "master",
-        "mathlock/FuelAuth": "master",
-        "mathlock/FuelOil": "master",
+        "mathlock/FuelCore": "main",
+        "mathlock/FuelAuth": "main",
+        "mathlock/FuelOil": "main",
     },
     "require-dev": {},
     "suggest": {},
